@@ -3,8 +3,9 @@ import Hero from "@/components/Hero/hero";
 import Blog from "@/components/Blog/blog";
 import Footer from "@/components/Footer/footer";
 import Service from "@/components/Service/service";
-import Solution from "@/components/Solutions/solution";
+import NavBar from "@/components/Navigation/navBar";
 import Boarding from "@/components/Boarding/boarding";
+import Solution from "@/components/Solutions/solution";
 import Achievement from "@/components/Solutions/achievement";
 
 export default function Home() {
@@ -26,12 +27,16 @@ export default function Home() {
           Solutions
         </title>
       </Head>
-      <Hero />
-      <Boarding />
-      <Service />
-      <Solution />
-      <Achievement />
-      <Blog />
+
+      <NavBar />
+      <main className="w-full mt-[6.3rem] md:mt-[6.8rem]">
+        <Hero />
+        <Boarding />
+        <Service />
+        <Solution />
+        <Achievement />
+        <Blog />
+      </main>
       <Footer />
     </>
   );
