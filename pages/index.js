@@ -1,6 +1,9 @@
 import Head from "next/head";
-import Blog from "@/Components/Blog/blog";
+import Blog from "@/components/Blog/blog";
 import Footer from "@/components/Footer/footer";
+import Service from "@/components/Service/service";
+import Solution from "@/components/Solutions/solution";
+import Achievement from "@/components/Solutions/achievement";
 
 export default function Home() {
   return (
@@ -21,6 +24,9 @@ export default function Home() {
           Solutions
         </title>
       </Head>
+      <Achievement />
+      <Solution />
+      <Service />
       <Blog />
       <Footer />
     </>

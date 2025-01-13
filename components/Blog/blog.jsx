@@ -1,3 +1,5 @@
+import { FaPlay } from "react-icons/fa6";
+
 export default function Blog() {
   const blogs = [
     {
@@ -24,7 +26,7 @@ export default function Blog() {
   ];
   return (
     <>
-      <div className="mx-[1.23rem] md:mx-[2.5rem] my-10 lg:mb-24">
+      <div className="mx-[1.23rem] md:mx-[2.5rem] lg:mx-[3.5rem] my-10 lg:mb-24">
         <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-12">
           <p className="text-[2rem] leading-[2.5rem] sm:text-[2.2rem] sm:leading-[2.5rem] lg:text-[2.6rem] lg:leading-[3rem] mb-6 sm:mb-4 md:mb-0">
             Read our articles, news and product blog
@@ -35,7 +37,7 @@ export default function Blog() {
                      bg-white text-black text-base relative z-10 font-semibold group-hover:bg-[#064386] group-hover:text-white text-center whitespace-nowrap cursor-pointer hover:shadow-md 
 "
             >
-              Visit blog
+              Visit blog <FaPlay className="text-[.8rem]" />
             </button>
             <div className="w-full h-full absolute top-1.5 right-1.5 z-0 rounded-full border-[1px] border-dashed group-hover:border-[#064386]"></div>
           </div>
@@ -44,10 +46,10 @@ export default function Blog() {
           {blogs.map((blog, index) => (
             <a
               key={index}
-              className="w-full pb-5 rounded-[1.3rem] relative overflow-hidden cursor-pointer group hover:shadow-sm hover:shadow-accent transition-all duration-500"
+              className="w-full pb-5 rounded-[1.3rem] relative overflow-hidden cursor-pointer group hover:shadow-sm hover:shadow-[#60a6e7] transition-all duration-500"
             >
-              <div class="h-60 sm:h-56 relative mb-6">
-                <div class="bg-accent z-0 w-full h-full absolute top-0 left-0 bg-opacity-10 rounded-[1.3rem] animate-pulse"></div>
+              <div className="h-60 sm:h-56 relative mb-6">
+                <div className="bg-[#60a6e7] z-0 w-full h-full absolute top-0 left-0 bg-opacity-10 rounded-[1.3rem] animate-pulse"></div>
                 <img className="w-full h-full rounded-[1.3rem] transition-transform duration-300 transform group-hover:scale-105" />
               </div>
               <div className="pl-5 relative before:absolute before:w-[1px] before:h-[90%] before:bg-white before:left-0 before:top-[50%] before:-translate-y-[50%] group-hover:translate-x-4 custom-animate">
