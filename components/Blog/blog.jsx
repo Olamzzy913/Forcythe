@@ -4,21 +4,21 @@ export default function Blog() {
   const blogs = [
     {
       title: "blog",
-      image: "",
+      image: "/image1.webp",
       span1: "The Reformist",
       span2: "May 29th, 2024",
       subtitle: "Will AI take over Art?",
     },
     {
       title: "blog",
-      image: "",
+      image: "/image2.webp",
       span1: "The Reformist",
       span2: "May 29th, 2024",
       subtitle: "Cryptocurrency vs Token ",
     },
     {
       title: "blog",
-      image: "",
+      image: "/image3.webp",
       span1: "The Reformist",
       span2: "May 29th, 2024",
       subtitle: "Cryptocurrency and Crypto assets",
@@ -50,7 +50,10 @@ export default function Blog() {
             >
               <div className="h-60 sm:h-56 relative mb-6">
                 <div className="bg-[#60a6e7] z-0 w-full h-full absolute top-0 left-0 bg-opacity-10 rounded-[1.3rem] animate-pulse"></div>
-                <img className="w-full h-full rounded-[1.3rem] transition-transform duration-300 transform group-hover:scale-105" />
+                <img
+                  src={blog.image}
+                  className="w-full object-cover h-full rounded-[1.3rem] transition-transform duration-300 transform group-hover:scale-105"
+                />
               </div>
               <div className="pl-5 relative before:absolute before:w-[1px] before:h-[90%] before:bg-white before:left-0 before:top-[50%] before:-translate-y-[50%] group-hover:translate-x-4 custom-animate">
                 <p className="text-lg font-semibold mb-1 capitalize">

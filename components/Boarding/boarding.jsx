@@ -9,7 +9,7 @@ export default function Boarding() {
   const discoveryData = [
     {
       text: "Starks Associate",
-      url: "",
+      url: "/john.svg",
       subtext:
         "Partnering with Forcythe was like finding a hidden gem. Their genuine interest in our success was palpable, and the continuous support post-launch has been a testament to their commitment. They’ve become more than a service provider; they’re a trusted ally.",
       subHead: "John, Management",

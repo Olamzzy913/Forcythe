@@ -4,7 +4,11 @@ export default function NavBar() {
       <section className="px-[1.25rem] md:px-[2.5rem] lg-[3.5rem] w-full fixed top-0 left-0 py-[1.8rem] flex justify-between gap-10 items-center z-30 backdrop-blur-md">
         <div className="flex items-center gap-20">
           <a href="/">
-            <img src="" alt="logo" className="w-28 sm:w-32 md:w-auto" />
+            <img
+              src="/forcythe.svg"
+              alt="logo"
+              className="w-28 sm:w-32 md:w-auto object-cover"
+            />
           </a>
           <div className="hidden md:flex items-center gap-4 text-base">
             <a href="/about">

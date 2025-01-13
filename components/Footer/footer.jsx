@@ -62,11 +62,11 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-3 lg:col-span-2 gap-10 md:gap-0">
             <div className="lg:pl-14 md:col-span-2 md:pr-10">
               <Image
-                src={"/image"}
+                src={"/forcythe.svg"}
                 alt="logo"
                 width={130}
                 height={9}
-                className="mb-5 md:mb-8"
+                className="mb-5 md:mb-8 object-cover"
               />
               <p className="text-base text-[rgba(177,182,187,0.51)] leading font-normal">
                 We are the growth company for businesses looking to scale. We
