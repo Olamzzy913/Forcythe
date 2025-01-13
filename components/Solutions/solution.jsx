@@ -20,7 +20,7 @@ export default function Solution() {
   ];
   return (
     <>
-      <section className="px-[1.25rem] md:px-[2.5rem] lg-[3.5rem] py-14  bg-gradient-to-b from-[#030516] to-[#071626]">
+      <section className="px-[1.25rem] md:px-[2.5rem] lg-[3.5rem] py-14  bg-gradient-to-b from-[#030516] to-[#0C2645]">
         <div>
           <div>
             <p className="text-[2rem] leading-[2.5rem] sm:text-[2.2rem] sm:leading-[2.5rem] lg:text-[2.6rem] lg:leading-[3rem] mb-10 text-[#B3D0F2] text-center">

@@ -24,9 +24,9 @@ export default function Home() {
           Solutions
         </title>
       </Head>
-      <Achievement />
-      <Solution />
       <Service />
+      <Solution />
+      <Achievement />
       <Blog />
       <Footer />
     </>
