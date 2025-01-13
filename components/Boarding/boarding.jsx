@@ -77,7 +77,7 @@ export default function Boarding() {
             </div>
             <div className="w-full h-[24rem] sm:w-auto sm:h-auto sm:basis-[42%] relative object-top mt-3 sm:mt-0">
               <div className="bg-accent z-0 w-full h-full absolute top-0 left-0 bg-opacity-10 animate-pulse rounded-xl">
-                <img src="" />
+                <img src={item.url} />
               </div>
             </div>
           </div>

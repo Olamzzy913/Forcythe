@@ -8,28 +8,28 @@ export default function Service() {
   const filterData = [
     {
       id: "Idea",
-      url: "",
+      url: "/camera-man.svg",
       title: " Your vision is unique.",
       subtitle:
         "Nurture Your Idea into a Blueprint for Success with our strategic insights and industry expertise. Your vision is unique, let’s us shape it.",
     },
     {
       id: "Design",
-      url: "",
+      url: "/plan-design.svg",
       title: "Crafting the blueprint for success",
       subtitle:
         "Design is more than aesthetics, it’s about creating user experiences that resonate and convert. Our design experts shape your vision into a stunning reality.",
     },
     {
       id: "Develop",
-      url: "",
+      url: "/plan-develop.svg",
       title: "Turning blueprints into reality.",
       subtitle:
         "We breathe life into designs, building robust platforms ready to disrupt markets. Harness the experience of our development team to bring your Concept to Life.",
     },
     {
       id: "Lunch",
-      url: "",
+      url: "/plan-lunch.svg",
       title: "Your launchpad to the market.",
       subtitle:
         "Launching is just the beginning, we ensure your product makes a splash and keeps making waves, ensuring a continual customer acquisition.",
