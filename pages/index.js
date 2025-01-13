@@ -3,6 +3,7 @@ import Blog from "@/components/Blog/blog";
 import Footer from "@/components/Footer/footer";
 import Service from "@/components/Service/service";
 import Solution from "@/components/Solutions/solution";
+import Discovery from "@/components/Discovery/Discovery";
 import Achievement from "@/components/Solutions/achievement";
 
 export default function Home() {
