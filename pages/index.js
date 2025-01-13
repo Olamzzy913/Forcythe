@@ -1,9 +1,10 @@
 import Head from "next/head";
+import Hero from "@/components/Hero/hero";
 import Blog from "@/components/Blog/blog";
 import Footer from "@/components/Footer/footer";
 import Service from "@/components/Service/service";
 import Solution from "@/components/Solutions/solution";
-import Discovery from "@/components/Discovery/Discovery";
+import Boarding from "@/components/Boarding/boarding";
 import Achievement from "@/components/Solutions/achievement";
 
 export default function Home() {
@@ -25,6 +26,8 @@ export default function Home() {
           Solutions
         </title>
       </Head>
+      <Hero />
+      <Boarding />
       <Service />
       <Solution />
       <Achievement />
